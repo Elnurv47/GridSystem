@@ -53,7 +53,7 @@ public class GridXZ : MonoBehaviour, IGrid
                         rotation: Quaternion.Euler(90, 0, 0),
                         localScale: new Vector3(0.15f, 0.15f, 0.15f),
                         color: Color.white,
-                        fontSize: 50
+                        fontSize: 25
                     );
 
                     Debug.DrawLine(GetNodeOriginDebug(new GridIndex(x, 0, z)), GetNodeOriginDebug(new GridIndex(x, 0, z + 1)), Color.white, 1000f);
